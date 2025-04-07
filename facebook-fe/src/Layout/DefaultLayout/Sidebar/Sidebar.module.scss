@@ -1,0 +1,43 @@
+.wrapper {
+    width: 302.5px;
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+    background-color: var(--background-color);
+
+    &.left {
+        left: 0;
+    }
+
+    &.right {
+        right: 0;
+    }
+
+    .content {
+        position: relative;
+        padding: 8px 0;
+    }
+}
+
+.wrapper-arrow-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .arrow-icon {
+        height: 28px;
+        width: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #d9dbe0;
+
+        .icon {
+            color: #000;
+            font-size: 11px;
+        }
+    }
+}

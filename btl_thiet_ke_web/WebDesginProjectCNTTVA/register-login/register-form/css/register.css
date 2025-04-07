@@ -1,0 +1,147 @@
+
+body {
+    background-image: url(../images/cf2.jpg);
+    background-size: cover;
+    padding: 100px;
+
+
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-form {
+    max-width: 400px;
+    background-color: #000;
+    opacity: 80%;
+    flex-grow: 1;
+    box-shadow: 0 0 15px 3px white;
+    padding: 30px 40px;
+}
+
+#register-form .form-heading {
+    color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 20px ;
+    font-size: 25px;
+}
+
+.form-group {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    
+}
+
+#register-form .form-group label {
+    color: #f5f5f5;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+#register-form .form-group span {
+    color: #ED4C67;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group .form-input {
+    background-color: transparent;
+    color: #f5f5f5;
+    display: block;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 3px 0;
+    width: 100%;
+}
+
+.form-group .form-input::placeholder {
+    color: #f5f5f5b4;
+}
+
+#register-form .form-group:nth-child(6) {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.pass-guild {
+    margin-bottom: 15px;
+}
+
+#register-form .pass-guild .password-conditions-heading {
+    color: #EE5A24;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#register-form .pass-guild .password-conditions {
+    color: #EE5A24;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#register-form .form-group .view-pass {
+    color: white;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}
+
+#register-form .form-group .view-pass i{
+    cursor: pointer;
+}
+
+.form-submit {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 650;
+    padding: 8px 0;
+    text-transform: uppercase;
+    transition: 0.22s linear;
+    border-radius: 5.5px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    border: 1px solid #0064fa;
+}
+
+#register-form .rd-to-login {
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+#register-form .rd-to-login a {
+    text-decoration: 0;
+    color: #F79F1F;
+}
+
+#register-form .register-notice {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#register-form .register-notice p {
+    color: #EE5A24;
+    font-size: 20px;
+}
+
+.form-group.warning {
+    border-color: red ; 
+}
+
+.form-group.warning .form-input::placeholder {
+    color: rgba(255, 0, 0, 0.705) ;
+}

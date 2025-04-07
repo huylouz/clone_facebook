@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/coffee_icon3.jpg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form id="login-form" onsubmit="return check_submit();">
+            <h1 class="form-heading">Admin Account</h1>
+            <div class="form-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="user-name" class="form-input name" autofocus required placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="user-pass" class="form-input pass" required  placeholder="Mật khẩu">
+                <div class="view-pass">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+            </div>
+            <button class="form-submit" type="submit" name="login-submit">Đăng nhập</button>
+            <div class="rd-to-register">
+                <span>
+                    Bạn chưa có tài khoản ?
+                </span>
+                <a href="../register-form/register.html" target="_self">Đăng kí</a>
+            </div>
+        </form>
+    </div>
+    <script src="../../jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/checkSubmit.js"></script>
+</body>
+</html>

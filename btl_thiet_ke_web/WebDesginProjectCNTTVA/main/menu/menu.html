@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/coffee_icon3.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsiveMenu.css">
+    <title>Thực Đơn</title>
+</head>
+<body>
+    <div id="container">
+
+        <!-- MENU -->
+        <div class="menu">
+
+            <ul class="menu__list">
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="../cauchuyen/cauchuyenhoanthien.html">Câu Chuyện</a> 
+                    </span>
+                </li>
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="../bangtin/bangtin.html">Bảng Tin</a> 
+                    </span>
+                    <ul class="sub-menu">
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content">Thẻ Thân Thiết</li>    
+                        </a>
+                        <a class="sub-menu__link" href="" >
+                            <li class="sub-menu__content">Tin Tức</li>    
+                        </a>
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content">Hợp Tác</li>   
+                        </a>
+                        <a class="sub-menu__link" href="../tuandat/Do_day/Do_day.html">
+                            <li class="sub-menu__content">Đó Đây</li>    
+                        </a>
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content">Ưu Đãi</li>    
+                        </a>
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content"> Pha Chế</li>   
+                        </a>
+                    </ul>
+                </li>
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="./menu.html">Thực đơn</a> 
+                    </span>
+                    <ul class="sub-menu">
+                        <a class="sub-menu__link" href="./menu.html">
+                            <li class="sub-menu__content">THỰC ĐƠN</li>    
+                        </a>
+                        <a class="sub-menu__link" href="../tuandat/Quay_mau_dich.html">
+                            <li class="sub-menu__content">QUẦY MẬU DỊCH</li>    
+                        </a>
+                    </ul>
+                </li>
+                <li class="menu__list--content">
+                    <a class="menu__list--link" href="../index.html">
+                        <img src="assets/img/coffee_icon3.jpg" alt="">
+                    </a>   
+                </li>
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="../tuyendung1/tuyendung.html">Tuyển dụng</a> 
+                    </span>
+                    <ul class="sub-menu">
+                        <a class="sub-menu__link" href="../tuyendung1/tuyendung.html">
+                            <li class="sub-menu__content">Ứng Tuyển</li>    
+                        </a>
+                    </ul>
+                </li>
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="../stores/stores.html">Cửa hàng</a> 
+                    </span>
+                </li>
+                <li class="menu__list--content">
+                    <span>
+                        <a class="menu__list--link" href="">Liên hệ</a> 
+                    </span>
+                    <ul class="sub-menu">
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content">Luôn Lắng Nghe</li>    
+                        </a>
+                        <a class="sub-menu__link" href="">
+                            <li class="sub-menu__content">Về Chúng Tôi</li>    
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div class="menu__user-link">
+                <i class="fa-solid fa-user"></i>
+                <ul class="sub-menu appear">
+                    <a class="sub-menu__link" href="../../register-login/login-form/login.html">
+                        <li class="sub-menu__content">Đăng nhập</li>    
+                    </a>
+                    <a class="sub-menu__link" href="../../register-login/register-form/register.html" >
+                        <li class="sub-menu__content">Đăng ký</li>    
+                    </a>
+                </ul>
+                <ul class="sub-menu log-out">
+                    <a class="sub-menu__link" href="../index.html">
+                        <li class="sub-menu__content">Đăng xuất</li>    
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- MAIN BODY -->
+        <div class="main-content">
+            <div class="content-menu">
+                <ul class="content-menu__list">
+                    <a href="#special" class="content-menu__link link-special">
+                        <li class="content-menu__items">đặc biệt</li>
+                    </a>
+                    <a href="#coffee" class="content-menu__link link-coffee">
+                        <li class="content-menu__items">cà phê ta</li>
+                    </a>
+                    <a href="#vitamin" class="content-menu__link link-vitamin">
+                        <li class="content-menu__items">sinh tố</li>
+                    </a>
+                    <a href="#tea" class="content-menu__link link-tea">
+                        <li class="content-menu__items">trà cổ thụ</li>
+                    </a>
+                    <a href="#fruit" class="content-menu__link link-fruit">
+                        <li class="content-menu__items">trái cây</li>
+                    </a>
+                    <a href="#yogurt" class="content-menu__link link-yogurt">
+                        <li class="content-menu__items">sữa chua</li>
+                    </a>
+                    <a href="#topping" class="content-menu__link link-topping">
+                        <li class="content-menu__items">topping</li>
+                    </a>
+                    <a href="#food" class="content-menu__link link-food">
+                        <li class="content-menu__items">đồ ăn chơi</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="products">
+                <div class="grid wide">
+
+                    <div class="special">
+                        <h3 class="product__title" id="special">Đặc biệt</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="coffee">
+                        <h3 class="product__title" id="coffee">Cà phê ta</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="vitamin">
+                        <h3 class="product__title" id="vitamin">Sinh tố</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="tea">
+                        <h3 class="product__title" id="tea">Trà cổ thụ</h3>
+                        <div class="row sm-gutter">
+                           <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="fruit">
+                        <h3 class="product__title" id="fruit">Trái cây</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="yogurt">
+                        <h3 class="product__title" id="yogurt">Sữa chua</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="topping">
+                        <h3 class="product__title" id="topping">Topping</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+
+                    <div class="food">
+                        <h3 class="product__title" id="food">Đồ ăn chơi</h3>
+                        <div class="row sm-gutter">
+                            <!-- RENDER PRODUCT HERE -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CART -->
+        <div class="cart">
+            <div class="cart__icon">
+                <div class="cart__number">
+                    <span>0</span>
+                </div>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <ul class="cart__list">
+                <!-- render content hear -->
+               
+            </ul>    
+            <button class="cart__list--btn" onclick="buyProducts();">Thanh toán</button>      
+        </div>
+
+        <!-- NOTIFICATIONS -->
+        <div class="layout"></div>
+        
+        <div class="isAdded">
+            <span class="isAdded__close">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+            <div class="isAdded__text">
+                <p>Sản phẩm này đã được thêm vào giỏ hàng!</p>
+                <p>Vui lòng chọn sản phẩm khác!</p>
+            </div>
+        </div>
+        
+        <div class="maxProducts">
+            <div class="maxProducts__text">
+                <p>Chỉ được chọn tối đa 50 sản phẩm!</p>
+                <p>Bạn có muốn chọn tối đa số sản phẩm không?</p>
+            </div>
+            <button class="btn maxProducts__btn--yes">Đồng ý</button>
+            <button class="btn maxProducts__btn--no">Không</button>
+        </div>
+        
+        <div class="chooseDelete">
+            <div class="chooseDelete__text">
+                <p>Bạn có muốn xóa sản phẩm khỏi giỏ hàng không?</p>
+            </div>
+            <button class="btn chooseDelete__btn--yes">Đồng ý</button>
+            <button class="btn chooseDelete__btn--no">Không</button>
+        </div>
+
+        <div class="buyProductsNoti">
+            <!-- Render Hear -->
+        </div>
+
+        <div class="line"></div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer__contact">
+                <div class="footer__contact--medias">
+                    <h4>Kênh kết nối</h4>
+                    <div class="footer__contact--imgs">
+                        <a href="" class="footer__contact--link">
+                            <img src="assets/img/fb.jpg" alt="">
+                        </a>
+                        <a href="" class="footer__contact--link">
+                            <img src="assets/img/ista.jpg" alt="">
+                        </a>
+                        <a href="" class="footer__contact--link">
+                            <img src="assets/img/yt.jpg" alt="">
+                        </a>  
+                    </div>
+                    <a href="" class="footer__contact--moiat">
+                       <img src="assets/img/footer1.jpg" alt=""> 
+                    </a>
+                </div>
+                <div class="footer__contact--update">
+                    <h4>Luôn cập nhật</h4>
+                    <p>Về các tin tức đó đây, sản phẩm mới</p>
+                    <div class="footer__contact--update-input-group">
+                        <input type="text" placeholder="Email">
+                        <span>
+                            <button type="submit">Đăng ký</button>
+                        </span>
+                    </div>
+                    <p class="footer__contact--update-slogan">Chúng tôi tôn trọng quyền riêng tư của bạn</p>
+                </div>
+            </div>
+            <div class="footer__addr">
+                <div class="footer__addr--text">
+                    <p>Công ty Our's Cafe <br>
+                        Mã số DN: 212630184 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp ngày 16/9/2022 <br>
+                        Địa chỉ: Đại học Giao Thông Vận Tải, Cầu Giấy, Hà Nội - Số điện thoại: +84 386 204 932 - Email: kbao122003@gmail.com <br>
+                        ©2017 - 2022 CÔNG TY <b>Our's Cafe</b> Mọi quyền được bảo lưu
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</body>
+</html>
